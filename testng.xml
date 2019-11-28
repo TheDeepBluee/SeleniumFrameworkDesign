@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="suite1">
+
+
+<listeners>
+
+<listener class-name="com.blueeye.listner.ReportListner"/>
+
+</listeners>
+
+
+<test name="Login" verbose="2">
+
+
+<classes>
+
+<class name="io.learning.testcases.Login"/>
+
+</classes>
+
+</test>
+
+<!-- <test verbose="2" name="SignIn"> <classes> <class name="healthcheck.Sample"/> </classes> </test> <test verbose="2" name="SignI1n"> <classes> <class name="healthcheck.Sample"/> </classes> </test> -->
+
+
+</suite>
