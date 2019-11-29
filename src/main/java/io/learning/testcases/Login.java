@@ -28,7 +28,7 @@ public class Login {
 		driverManager = DriverManagerFactory.getDriverManager(DriverType.IE);
 		driver = driverManager.getWebDriver();
 		driver.navigate().to("https://blueeye-qa.jetblue.com");
-		
+		driver.close();
 		}
 		
 }
